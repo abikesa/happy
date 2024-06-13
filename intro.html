@@ -386,7 +386,7 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="frank">
 <h1>Frank<a class="headerlink" href="#frank" title="Link to this heading">#</a></h1>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>iam/
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>iam/
 ├──<span class="w"> </span>_build/
 │<span class="w">   </span>└──<span class="w"> </span>html/
 │<span class="w">       </span>├──<span class="w"> </span>webApp/
@@ -406,10 +406,10 @@ document.write(`
 │<span class="w">       </span>├──<span class="w"> </span>chapter8.html
 │<span class="w">       </span>├──<span class="w"> </span>index.html
 │<span class="w">       </span>├──<span class="w"> </span>intro.html
-│<span class="w">       </span>├──<span class="w"> </span>README.html
-│<span class="w">       </span>.
-│<span class="w">       </span>.
-│<span class="w">       </span>.
+│<span class="w">       </span>└──<span class="w"> </span>README.html
+│<span class="w">       </span>
+│<span class="w">       </span>
+│<span class="w">       </span>
 ├──<span class="w"> </span>_config.yml
 ├──<span class="w"> </span>_toc.yml
 ├──<span class="w"> </span>chapter1.ipynb
@@ -423,7 +423,7 @@ document.write(`
 └──<span class="w"> </span>requirements.txt
 </pre></div>
 </div>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>jb<span class="w"> </span>build<span class="w"> </span>iam<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>iam/post_build.sh<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>new/jbb_https.sh
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/abikesa/workflow<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>mv<span class="w"> </span>workflow<span class="w"> </span>new<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>new/setup_myenv.sh<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="sb">`</span><span class="nb">source</span><span class="w"> </span>myenv/bin/activate<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>iam/pre_build.sh<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>jb<span class="w"> </span>build<span class="w"> </span>iam<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>iam/post_build.sh<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>new/jbb_https.sh<span class="sb">`</span>
 </pre></div>
 </div>
 <div class="toctree-wrapper compound">

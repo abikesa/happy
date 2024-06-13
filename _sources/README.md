@@ -41,5 +41,4 @@ iam/
 ```
 
 ```sh
-git clone https://github.com/abikesa/workflow && mv workflow new && new/setup_myenv.sh && source myenv/bin/activate && jb build iam && iam/post_build.sh && new/jbb_https.sh
-```
+git clone https://github.com/abikesa/workflow && mv workflow new && new/setup_myenv.sh && source myenv/bin/activate && iam/pre_build.sh && jb build iam && iam/post_build.sh && new/jbb_https.sh```
