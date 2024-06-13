@@ -1,6 +1,7 @@
 # Frank
 
-```sh
+```bash
+
 iam/
 ├── _build/
 │   └── html/
@@ -21,10 +22,10 @@ iam/
 │       ├── chapter8.html
 │       ├── index.html
 │       ├── intro.html
-│       ├── README.html
-│       .
-│       .
-│       .
+│       └── README.html
+│       
+│       
+│       
 ├── _config.yml
 ├── _toc.yml
 ├── chapter1.ipynb
@@ -39,8 +40,10 @@ iam/
 
 ```
 
-```sh
-jb build iam && iam/post_build.sh && new/jbb_https.sh
+```bash
+
+git clone https://github.com/abikesa/workflow && mv workflow new && new/setup_myenv.sh && `source myenv/bin/activate && iam/pre_build.sh && jb build iam && iam/post_build.sh && new/jbb_https.sh`
+
 ```
 
 ```{tableofcontents}
